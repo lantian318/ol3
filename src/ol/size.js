@@ -17,5 +17,6 @@ ol.Size;
  * @return {boolean} Equals.
  */
 ol.size.equals = function(a, b) {
+	var test="test"; //just for test
   return a[0] == b[0] && a[1] == b[1];
 };
